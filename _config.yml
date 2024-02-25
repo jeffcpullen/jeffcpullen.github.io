@@ -1,13 +1,14 @@
-title: "My Blogs Name"
-author: "Default Author Name"
-description: "Some short description of your blog can go here." # This will show up in places like twitter, linkedin, etc, if you share your sites url as a post.
+---
+title: "Chronically Optimistic Engineering"
+author: "Jeff Pullen"
+description: "Things I remembered to write down"
 
 # Email / Social media user names used by the minima theme:
 # All of these are optional and can be removed or commented out
-email: "example@mail.com"
-twitter_username: "twitteruser"
-github_username: "githubuser"
-linkedin_username: "linkedinuser"
+# email: "example@mail.com"
+# twitter_username: "twitteruser"
+github_username: "jeffcpullen"
+linkedin_username: "jeffreypullen"
 #facebook_username: username
 #flickr_username: username
 #instagram_username: username
@@ -25,7 +26,7 @@ rss: rss
 kramdown:
   syntax_highlighter_opts:
     disable: true
-    
+
 plugins:
   - jekyll-feed
   - jekyll-sitemap
@@ -39,4 +40,5 @@ defaults:
       path: ""
       type: post
     values:
-      tags: Other
+      tags:
+        - Other
