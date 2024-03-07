@@ -32,7 +32,7 @@ time=2024-02-25T13:47:29.790-05:00 level=INFO source=routes.go:1042 msg="no GPU 
 ```
 
 
-### The Solution
+### Troubleshooting
 
 ### Add your user to the video group
 
