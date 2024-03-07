@@ -83,7 +83,11 @@ $ inxi -Fzxx
 $ inxi -Gzxx
 ```
 
+### Installing anything relevant at this point
+
+```
 dnf install rocm-opencl
+```
 
 ### Install rocm-hip (needed?)
 
@@ -96,7 +100,6 @@ $ dnf install rocm-hip rocm-hip-devel
 ### Install ROCm System Management Interface rocm-smi 
 
 We are actually installing the development package for rocm-smi to provide the librocm_smi64.so library
-
 
 ```
 $ dnf install rocm-smi-devel
